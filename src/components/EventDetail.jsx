@@ -88,11 +88,11 @@ const EventDetails = ({ eventId, onBack }) => {
             <table className="w-full text-sm">
               <thead className="bg-transparent">
                 <tr>
-                  <th className="lg:px-2 px-10 py-1 text-left">Position</th>
-                  <th className="lg:px-2 px-10 py-1 text-left">Time</th>
-                  <th className="lg:px-2 px-10 py-1 text-left">Info</th>
-                  <th className="lg:px-2 px-10 py-1 text-left">Quantity</th>
-                  <th className="lg:px-2 px-20 py-1 text-left"></th>
+                  <th className="lg:px-2 px-10 py-1 text-center">Position</th>
+                  <th className="lg:px-2 px-10 py-1 text-center">Time</th>
+                  <th className="lg:px-2 px-10 py-1 text-center">Info</th>
+                  <th className="lg:px-2 px-10 py-1 text-center">Quantity</th>
+                  <th className="lg:px-2 px-16 py-1 text-center"></th>
                 </tr>
               </thead>
               <tbody>
