@@ -17,7 +17,7 @@ const EventRequest = ({ onViewDetails }) => {
   }
 
   return (
-    <div className="text-base text-white w-[400px] lg:w-[960px] lg:h-full h-[85vh] border-[2px] border-pink-700 border-opacity-70 rounded-xl shadow-[0_0_20px_2px_rgba(255,0,128,0.2)] overflow-y-scroll custom-scrollbar">
+    <div className="text-base text-white w-[90vw] lg:w-[960px] lg:h-full h-[85vh] border-[2px] border-pink-700 border-opacity-70 rounded-xl shadow-[0_0_20px_2px_rgba(255,0,128,0.2)] overflow-y-scroll custom-scrollbar">
       <div className="flex lg:flex-row flex-col lg:items-center lg:justify-between justify-start my-2 px-5">
         <h1 className="text-2xl font-semibold">Event Requests</h1>
         <div className="flex items-center">
