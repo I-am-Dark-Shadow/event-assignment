@@ -26,7 +26,7 @@ const EventDetails = ({ eventId, onBack }) => {
       >
         ←
       </button>
-      <h2 className="text-2xl font-bold">Event Name <span className="text-sm text-gray-400 ml-1">(Venue Details)</span></h2>
+      <h2 className="text-xl font-bold">Event Name <span className="text-sm text-gray-400 ml-1">(Venue Details)</span></h2>
       </div>
 
       
