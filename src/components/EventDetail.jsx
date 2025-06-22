@@ -16,7 +16,7 @@ const EventDetails = ({ eventId, onBack }) => {
   }));
 
   return (
-    <div className="text-white w-[400px] lg:w-[960px] h-full border-2 border-pink-700 border-opacity-70 rounded-xl shadow-[0_0_20px_2px_rgba(255,0,128,0.2)] overflow-y-scroll custom-scrollbar p-4 bg-transparent">
+    <div className="text-white w-[90vw] lg:w-[960px] h-full border-2 border-pink-700 border-opacity-70 rounded-xl shadow-[0_0_20px_2px_rgba(255,0,128,0.2)] overflow-y-scroll custom-scrollbar p-4 bg-transparent">
       
       
       <div className="flex gap-2 items-center mb-4">
