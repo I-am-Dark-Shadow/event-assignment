@@ -82,7 +82,7 @@ const EventDetails = ({ eventId, onBack }) => {
         </div>
 
         
-        <div className="col-span-2 lg:w-full w-[356px]">
+        <div className="col-span-2 lg:w-full w-[80vw]">
           <h3 className="text-lg font-semibold lg:mt-0 mt-4 mb-2">Positions</h3>
           <div className="border border-pink-700 rounded-lg bg-black lg:overflow-hidden overflow-x-auto">
             <table className="w-full text-sm">
@@ -92,17 +92,17 @@ const EventDetails = ({ eventId, onBack }) => {
                   <th className="lg:px-2 px-10 py-1 text-left">Time</th>
                   <th className="lg:px-2 px-10 py-1 text-left">Info</th>
                   <th className="lg:px-2 px-10 py-1 text-left">Quantity</th>
-                  <th className="lg:px-2 px-24 py-1 text-left"></th>
+                  <th className="lg:px-2 px-20 py-1 text-left"></th>
                 </tr>
               </thead>
               <tbody>
                 {positions.map((pos, i) => (
                   <tr key={i} className="border-t border-pink-800">
-                    <td className="px-2 py-1 lg:text-center">Camera (Video)</td>
-                    <td className="px-2 py-1 lg:text-center">{pos.time}</td>
-                    <td className="px-2 py-1 lg:text-center">{pos.info}</td>
-                    <td className="px-2 py-1 lg:text-center">{pos.quantity}</td>
-                    <td className="px-2 py-1 lg:text-center">
+                    <td className="px-2 py-1 text-center">Camera (Video)</td>
+                    <td className="px-2 py-1 text-center">{pos.time}</td>
+                    <td className="px-2 py-1 text-center">{pos.info}</td>
+                    <td className="px-2 py-1 text-center">{pos.quantity}</td>
+                    <td className="px-2 py-1 text-center">
                       <select className="bg-transparent border border-white rounded px-2 py-1 w-full">
                         <option>Select Contractor</option>
                       </select>
