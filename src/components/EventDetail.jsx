@@ -22,7 +22,7 @@ const EventDetails = ({ eventId, onBack }) => {
       <div className="flex gap-2 items-center mb-4">
         <button
         onClick={onBack}
-        className="text-2xl bg-gray-800 px-2 rounded-full items-center"
+        className="text-2xl font-bold w-8 h-8 bg-gray-800 px-2 rounded-full items-center"
       >
         ←
       </button>
