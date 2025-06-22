@@ -24,7 +24,7 @@ const EventDetails = ({ eventId, onBack }) => {
         onClick={onBack}
         className="text-2xl font-bold w-8 h-8 bg-gray-800 flex justify-center rounded-full items-center"
       >
-        ←
+        <img src="/Arrow (1).png" alt="" className='rotate-90' />
       </button>
       <h2 className="text-xl font-bold">Event Name <span className="text-sm text-gray-400 ml-1">(Venue Details)</span></h2>
       </div>
